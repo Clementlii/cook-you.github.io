@@ -1,0 +1,657 @@
+/*debug*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*code*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+header {
+    padding: 1.875rem 3.75rem 0px 3.75rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.photo {
+    background-image: url(../img/Cuisine.png);
+    width: 100%;
+    height: 37.5rem;
+    display: flex;
+    background-attachment: fixed;
+}
+
+/*navigation*/
+
+nav {
+    display: block;
+    padding-top: 0.625rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding: 0.9375rem 0px 0px 2.5rem;
+    text-align: center;
+}
+
+/*over*/
+ul a:hover {
+    color: rgba(245, 107, 16, 0.836);
+}
+
+a:hover {
+    color: rgba(245, 107, 16, 0.836);
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: black;
+    margin: 0.625rem 1.25rem 0px 0px;
+}
+
+/* Lien E-commerce */
+.panier {
+    height: 0.75rem;
+    width: 7.5rem;
+    margin-right: 1.875rem;
+}
+
+
+/*logo*/
+.logo {
+    height: 7.5rem;
+    width: 7.5rem;
+    padding-top: 0.625rem;
+}
+
+.logoresp {
+    display: none;
+}
+
+/* Call to action */
+.boutton {
+    background: white;
+    padding: 1.25rem 1.875rem 1.25rem 1.875rem;
+    font-size: 1.25rem;
+    border-radius: 10rem;
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*hover*/
+.boutton:hover {
+    background-color: rgb(233, 233, 233);
+    color: black
+}
+
+/*présentation*/
+
+.hello {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hello p {
+    align-self: center;
+    text-align: center;
+    font-size: 18px;
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+#bloqe {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+
+/*transition*/
+#bloqe img {
+    height: 230px;
+    width: 230px;
+    transition-duration: 1s;
+}
+
+.app {
+    margin-top: 30px;
+    padding-bottom: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 1s;
+}
+
+.img {
+    height: 25rem;
+    margin: 0px auto 0px auto;
+}
+
+.cuisine {
+    font-size: 1.25rem;
+    display: flex;
+    text-align: center;
+    margin: 0px auto 0px auto;
+}
+
+.app p {
+    font-size: 1.25rem;
+    display: flex;
+    text-align: center;
+    margin: 0px auto 0px auto;
+
+}
+
+.app {
+    margin: 0px auto 0px auto;
+    padding-bottom: 7.5rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.cookiing {
+    margin-right: 10px;
+}
+
+/* NOS ENGAGEMENTS*/
+
+.cuisine {
+    height: 40.25rem;
+    display: flex;
+    margin-top: 30px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(../img/header-1.jpg);
+    background-attachment: fixed;
+}
+
+.cuisine img {
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 6.25rem;
+    font-family: 'Noto Serif', serif;
+    font-size: 2.1875rem;
+    padding-bottom: 6.25rem;
+}
+
+.cuisine h2 {
+    margin-top: 6.25rem;
+    font-weight: 800;
+    font-family: 'Noto Serif', serif;
+    margin-left: 300px;
+    font-size: 1.875rem;
+    flex-direction: column;
+    color: white;
+}
+
+.cuisine p {
+    margin-left: 20rem;
+    font-weight: normal;
+    text-align: center;
+    width: 560px;
+    color: white;
+}
+
+p {
+    width: 31.25rem;
+    position: relative;
+    font-size: 1.25rem;
+}
+
+/* RECIPE */
+h2 {
+    text-align: center;
+    margin-top: 6.25rem;
+    font-family: 'Noto Serif', serif;
+    font-size: 2.1875rem;
+    padding-bottom: 6.25rem;
+}
+
+/*about*/
+
+
+.bg2 {
+    background-image: url(../img/About\ 2.jpg);
+    width: 100%;
+    height: 37.5rem;
+    display: flex;
+    background-attachment: fixed;
+    flex-direction: column;
+}
+
+.bg2 h4 {
+    font-size: 30px;
+    font-family: 'N', serif;
+    margin: 100px auto 0px auto;
+    color: #fff;
+    font-weight: bold;
+}
+
+.bg2 a {
+    text-align: center;
+    flex-direction: column-reverse;
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+}
+
+.bg2 p {
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: 'Noto Serif', serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    border: solid 3px white;
+    padding: 15px 15px 15px 15px;
+}
+
+
+/*footer*/
+footer {
+    background-image: url(../img/About\ 2.jpg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+/*code carousel*/
+
+.item {
+    margin: 10px;
+    transition: transform 0.3s;
+    transform: translate3d(0, -1px, 0);
+}
+
+.item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.item__body {
+    padding: 25px;
+}
+
+.item__title {
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #e43720;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+
+.item__description {
+    text-align: center;
+}
+
+section h2 {
+    font-family: 'Noto Serif', serif;
+}
+
+.items {
+    position: relative;
+}
+
+.container {
+    width: 60%;
+    padding-bottom: 200px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*CAROUSEL*/
+.carousel {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.carousel__container {
+    transition: transform 0.3s;
+    transform: translate3d(0, 0, 0);
+}
+
+.carousel__container::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.carousel__item {
+    float: left;
+}
+
+.carousel__next,
+.carousel__prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #c9c9c9 center center no-repeat;
+    background-size: 10px 10px;
+    border-radius: 50%;
+    top: 50%;
+    margin-top: -50px;
+    right: -20px;
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.carousel__next:hover,
+.carousel__prev:hover {
+    transform: scale(1.2)
+}
+
+.carousel__prev {
+    right: auto;
+    left: -20px;
+}
+
+.carousel__next--hidden,
+.carousel__prev--hidden {
+    opacity: 0;
+}
+
+.carousel__pagination {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: none;
+}
+
+.carousel__pagination__button {
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 3px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.carousel__pagination__button--active,
+.carousel__pagination__button:hover {
+    transform: scale(1.4);
+}
+
+/*formulaire*/
+#form {
+    padding-bottom: 100px;
+}
+
+#form h4 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+}
+
+form {
+    margin-top: 12.5rem;
+    margin: 0 auto;
+    width: 25rem;
+    margin-top: 100px;
+    padding: 1em;
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form div+div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 5.625rem;
+    text-align: right;
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 25.75rem;
+    background-color: rgb(240, 240, 240);
+    border-style: none;
+    height: 25px;
+    border-radius: 1rem;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+.button button {
+    color: white;
+}
+
+button {
+    background: #e43720;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 180px;
+    padding-right: 180px;
+    font-size: 1.25rem;
+    border-radius: 10rem;
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(187, 33, 33);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive*/
+
+
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    button {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+
+    input,
+    textarea {
+        width: 23.75rem;
+        height: 25px;
+    }
+
+    .cuisine h2 {
+        margin: 30px auto 0px auto;
+    }
+
+    .cuisine .description p {
+        height: 30px;
+        font-size: 13px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .photo {
+        width: 100%;
+        height: 300px;
+        background-attachment: fixed;
+    }
+
+    #bloqe {
+        height: 30px;
+        width: 30%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #bloqe img {
+        height: 130px;
+        width: 130px;
+        margin-left: 20px;
+    }
+
+    .app {
+        margin-top: 30px;
+        padding-bottom: 7.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hello p {
+        display: none;
+    }
+
+    .cuisine img {
+        display: none;
+    }
+
+    .app {
+        margin-top: 30px;
+        padding-bottom: 7.5rem;
+        display: flex;
+    }
+
+    .img {
+        height: 25rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    li {
+        display: none;
+    }
+
+    .description p {
+        font-size: 15px;
+        width: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header {
+        display: none;
+    }
+
+    .bg2 p {
+        font-size: 10px;
+        width: 50%;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+
+    .carousel__pagination {
+        display: block;
+    }
+
+    form {
+        margin: 30px auto auto auto;
+    }
+}
